@@ -52,7 +52,7 @@ section  {
 
 #box {
     width: 1700px;
-    height: 250px;
+    height: 430px;
     display: flex;
     background-color: gray;
     flex-flow: row wrap;
@@ -62,16 +62,31 @@ section  {
 }
 .container {
     border: black solid 2px;
-    min-height: 200px;
+    min-height: 400px;
     width: 1200px;
-    background-color: slateblue;
+    background-color: pink;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: left;
     flex: 100%;
     margin: 0px;
+    
 }
+#container .image-container {
+    text-align: center;
+    vertical-align: middle;
+  
+}
+
+#container .image-container img {
+    max-width: 300px;
+    min-height: 250px;
+    padding-top: 5px;  
+    margin-left: 20px;      
+}
+
+
 .title {
     color: snow;
     background-color:pink ;
