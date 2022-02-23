@@ -51,8 +51,8 @@ section  {
 }
 
 #box {
-    width: 1700px;
-    height: 430px;
+    width: 800px;
+    height: 400px;
     display: flex;
     background-color: gray;
     flex-flow: row wrap;
@@ -62,8 +62,8 @@ section  {
 }
 .container {
     border: black solid 2px;
-    min-height: 400px;
-    width: 1200px;
+    min-height: 100px;
+    width: 800px;
     background-color: pink;
     display: flex;
     flex-flow: row wrap;
